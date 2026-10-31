@@ -1,5 +1,6 @@
 AutoCare Vehicle Management System
 
+
 Project Description
 
 AutoCare Vehicle Management System is a desktop application developed using Python, Tkinter, and SQLite. It helps users manage vehicle records, track service schedules, and maintain vehicle information efficiently.
@@ -109,4 +110,19 @@ Chandra Sekhar reddy
 License
 
 This project is created for educational purposes.
+
+A Vehicle Management System developed using Python, Tkinter, and SQLite.
+
+Features
+Add Vehicle
+Search Vehicle
+Update Vehicle
+Delete Vehicle
+Service Due Checker
+Technology Stack
+Python
+Tkinter
+SQLite
+Author
+chandra sekhar reddy
 
