@@ -3,7 +3,7 @@ Project Description
 AutoCare Vehicle Management System is a desktop application developed using Python, Tkinter, and SQLite. It helps users manage vehicle records, track service schedules, and maintain vehicle information efficiently.
 
 Application Screenshot
-screenshots/main_window.png
+main_window.png
 
 Features
 Add Vehicle Records
@@ -20,19 +20,25 @@ SQLite
 Project Structure
 AutoCare-Vehicle-Management-System/
 │
-├── main.py
-├── database.py
+├── vehicle.py
 ├── autocare.db
 ├── README.md
-└── screenshots/
-    └── main_window.png
+├── TESTING.md
+│
+├── screenshots/
+│   └── main_window.png
+│
+└── docs/
+    ├── Project_Report.md
+    ├── ER_Diagram.txt
+    └── Use_Case_Diagram.txt
 Installation
-Clone the repository:
+Clone the Repository
 git clone https://github.com/cs7943396-design/AutoCare-Vehicle-Management-System.git
-Open the project folder:
+Open the Project Folder
 cd AutoCare-Vehicle-Management-System
-Run the application:
-python main.py
+Run the Application
+python vehicle.py
 Modules
 Vehicle Management
 Add Vehicle
@@ -42,14 +48,17 @@ Delete Vehicle
 Service Management
 Track Service Dates
 Service Due Notifications
+Database
+The application uses SQLite to store vehicle information and service records.
+
 Future Enhancements
 PDF Report Generation
 Email Notifications
 Cloud Database Integration
 Mobile Application Support
 Vehicle Expense Tracking
-Author
-Chandra Sekhar Reddy
+Testing
+Testing details are available in the TESTING.md file.handra Sekhar Reddy**
 
 License
 This project is created for educational purposes.
